@@ -75,3 +75,4 @@ $service = new OilChange(new TireChange(new BasicInspection));
 echo $service->getCost();
 
 // It will return 115
+// Decorator Pattern
